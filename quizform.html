@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quizform.css">
+    <link rel="shortcut icon"
+        href="https://th.bing.com/th/id/R.eaea4b43ba99fb33ff757eb8fae891de?rik=OUHPn3oGTqHmXw&pid=ImgRaw&r=0"
+        type="image/x-icon">
+        <script src="quizform.js"></script>
+</head>
+
+<body>
+    <center>
+        <hr>
+        <h1 class="intro">Random knowledge quiz!</h1>
+        <hr>
+        <br><br>
+        <div class="details">
+            <form>
+                <label class="headinformation">Information</label>
+                <br><br><br>
+                <label class="name">Name</label>
+                <input type="text">
+                <br><br>
+                <label class="dob">Date of Birth</label>
+                <input type="date">
+                <br><br>
+                <label class="address">address</label>
+                <input type="text">
+                <br><br>
+            </form>
+            <hr>
+        </div>
+        <hr>
+        <div id="start?">
+            <h2 class="Ready">Ready?</h2>
+            <br>
+            <h2 class="Set">Set?</h2>
+            <br>
+            <h2 class="go">Go!!!!</h2>
+            <br><br>
+            <hr>
+        </div>
+        <div id="quiz">
+                <div class="question" id="question1">
+                    <h2>question 1</h2>
+                    <br>
+                    <h3>Who is the president of the United States of America(USA)? </h3>
+                    <h3>Answer:</h3>
+                    <input type="text" id="q1">
+                </div>
+                <br>
+                <hr>
+                <div class="question" id="question2">
+                    <h2>question 2</h2>
+                    <br>
+                    <h3>Who was the first president of the USA?</h3>
+                    <h3>Answer:</h3>
+                    <input type="text" id="q2">
+                </div>
+                <br>
+                <hr>
+                <div class="question" id="question3">
+                    <h2>question 3</h2>
+                    <br>
+                    <h3>what is 13*13?</h3>
+                    <h3>Answer:</h3>
+                    <input type="number" id="q3">
+                </div>
+                <br>
+                <hr>
+                <div class="question" id="question4">
+                    <h2>question 4</h2>
+                    <br>
+                    <h3>What is the factorial of 4?</h3>
+                    <a href="https://anonymus1234-cloud.github.io/Find-the-factorial-for-any-number/factorial.html"
+                        target="_blank">Factorial calculator!</a>
+                    <h3>Answer:</h3>
+                    <input type="number" id="q4">
+                </div>
+                <br>
+                <hr>
+                <div class="question" id="question5">
+                    <h2>question 5</h2>
+                    <br>
+                    <h3>When was math created?</h3>
+                    <h3>Answer:</h3>
+                    <input type="text" id="q5">
+                </div>
+                <br>
+                <hr>
+                <div class="question" id="question6">
+                    <h2>question 6</h2>
+                    <br>
+                    <h3>What does NAFTA stand for?</h3>
+                    <h3>Answer:</h3>
+                    <input type="text" id="q6">
+                </div>
+                <br>
+                <hr>
+                <div class="question" id="question7">
+                    <h2>question 7</h2>
+                    <br>
+                    <h3>Which continent has 3 countries?</h3>
+                    <h3>Answer:</h3>
+                    <input type="text" id="q7">
+                </div>
+                <br>
+                <hr>
+                <div class="question" id="question8">
+                    <h2>question 8</h2>
+                    <br>
+                    <h3>Which country owns Alaska?</h3>
+                    <h3>Answer:</h3>
+                    <input type="text" id="q8">
+                </div>
+                <br>
+                <hr>
+                <div class="question" id="question9">
+                    <h2>question 9</h2>
+                    <br>
+                    <h3>What is the most active volcanoe?</h3>
+                    <h3>Answer:</h3>
+                    <input type="text" id="q9">
+                </div>
+                <br>
+                <hr>
+                <div class="question" id="question10">
+                    <h2>question 10</h2>
+                    <br>
+                    <h3>Who was the Founder of Google?</h3>
+                    <h3>Answer:</h3>
+                    <input type="text" id="q10">
+                </div>
+                <br>
+                <hr>
+                <button onclick="checkanswer()">Submit answers!</button>
+                <div id="result">
+
+                </div>
+        </div>
+    </center>
+</body>
+
+</html>

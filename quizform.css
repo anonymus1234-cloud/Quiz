@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(239, 221, 146);
+}
+
+.intro{
+    font-size: 40px;
+    color: cadetblue;
+    text-decoration: underline, overline, dotted, dashed ;
+    border: 10px;
+    border-style: groove;
+    border-color: cadetblue;
+}
+
+.headinformation{
+    font-size: 40px;
+    color: cadetblue;
+    text-decoration: underline, overline, dotted, dashed ;
+    border: 5px;
+    border-style: groove;
+    border-color: cadetblue;
+}
+.name{
+    font-size: 25px;
+    color: cadetblue;
+}
+
+
+.dob{
+    font-size: 25px;
+    color: cadetblue;
+}
+
+.address{
+    font-size: 25px;
+    color: cadetblue;
+}
+
+.Ready{
+    font-size: 35px;
+    color: cadetblue;
+}
+
+.Set{
+    font-size: 35px;
+    color: cadetblue;
+}
+
+.go{
+    font-size: 35px;
+    color: cadetblue;
+}
+
+#quiz{
+    color: cadetblue;
+}
